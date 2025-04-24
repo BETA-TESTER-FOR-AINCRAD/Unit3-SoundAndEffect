@@ -17,7 +17,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacle ()
     {
-       
+       Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
     }
 
     // Update is called once per frame
