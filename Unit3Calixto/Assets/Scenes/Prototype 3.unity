@@ -148,7 +148,7 @@ Transform:
   m_GameObject: {fileID: 128668375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.996, y: 0.1, z: -0.099}
+  m_LocalPosition: {x: 38.996, y: 0.1, z: 0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -888,13 +888,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 425
-  gravityModifier: 1.4
+  gravityModifier: 1.3
   isOnGround: 1
   gameOver: 0
   explosionParticle: {fileID: 1934807071}
   dirtParticle: {fileID: 501620910}
   jumpSound: {fileID: 8300000, guid: 08ab7053d586c458db3774d33c141a4b, type: 3}
   crashSound: {fileID: 8300000, guid: 4bcde6de2166e41e284ec46d8a01fb90, type: 3}
+  doubleJumpUsed: 0
+  doubleJumpForce: 400
+  doubleSpeed: 0
 --- !u!4 &1938822713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
